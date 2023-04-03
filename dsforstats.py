@@ -5,14 +5,12 @@ from utils import probability
 from utils.testing import test_equal, test_close
 import utils.counting as C
 list1=[1,2,3,4,5]
-list2=[1,2,3,4,5]
-list3=[1,2,3,4,5]
-list4=[1,2,3,4,5]
+print("changes_for _commit")
 print (list1)
 if __name__=="__main__":
     print("\nSOME PROBABILITY PROBLEMS\n")
 
-    # Question 1
+    # Question 1git log
     print("Q: Find the probability of getting a head when you toss a fair coin?")
     p_head = probability(1, 2)
     print(p_head)
